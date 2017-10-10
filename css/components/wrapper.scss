@@ -1,0 +1,425 @@
+.wrapper-card-news{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  box-sizing: border-box;
+  li{
+    a{
+      text-decoration: none;
+      color: $color-black;
+    }
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+    @media screen and (min-width: $device-tablet) {
+      width: 50%;
+      padding-right: 5px;
+      &:nth-child(2n){
+        padding-left: 5px;
+        padding-right: 0px;
+      }
+
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+
+
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}
+
+.wrapper-card-course{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  box-sizing: border-box;
+  li{
+    a{
+      text-decoration: none;
+      color: $color-black;
+    }
+
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+    @media screen and (min-width: $device-tablet) {
+      width: 50%;
+      padding-right: 5px;
+      &:nth-child(2n){
+        padding-left: 5px;
+        padding-right: 0px;
+      }
+
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+
+
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}
+.wrapper-card-document{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  box-sizing: border-box;
+  li{
+    a{
+      text-decoration: none;
+      color: $color-black;
+    }
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+
+    @media screen and (min-width: $device-tablet) {
+      width: 50%;
+     padding: 0px 5px 0px 0px ;
+      &:nth-of-type(2n){
+        padding: 0px 0px 0px 5px ;
+      }
+
+    }
+    @media screen and (min-width: $device-computer) {
+      width: 33.3333333%;
+      &:nth-of-type(3n+1){
+        padding-left: 0;
+        padding-right: 5px;
+      }
+      &:nth-of-type(3n+2){
+        padding: 0 2.5px;
+      }
+      &:nth-of-type(3n+3){
+        padding-left: 5px;
+        padding-right: 0px;
+      }
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+
+
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}
+
+
+.wrapper-detail-all{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  li{
+    a{
+      text-decoration: none;
+      color: $color-black;
+    }
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+    margin: 10px 0;
+
+    .title-detail-all{
+
+      font-size: 16px;
+      @media screen and (min-width: $device-tablet) {
+        font-size: 18px;
+      }
+      @media screen and (min-width: $device-computer) {
+
+      }
+    }
+
+    .list-detail-all{
+      padding: 10px 0 0 10px;
+      width: 100%;
+      box-sizing: border-box;
+      li{
+        a{
+          text-decoration: none;
+          color: $color-black;
+        }
+        //list-style-position: inside;
+        //list-style-type: square;
+        margin: 0;
+        padding: 0;
+        @media screen and (min-width: $device-tablet) {
+
+        }
+        @media screen and (min-width: $device-computer) {
+
+        }
+      }
+
+      .in-detail{
+        width: 100%;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: 100;
+        font-family: Thonburi;
+        position: relative;
+        display: inline-block;
+        padding: 0;
+
+        .link-in-detail{
+          color: $color-green;
+          opacity: 0.5;
+          cursor: pointer;
+
+          &:hover{
+            opacity: 1;
+          }
+
+        }
+
+        .btn-download-detail{
+          padding: 7px 13px;
+          border: none;
+          font-weight: 100;
+          font-size: 16px;
+          opacity: 0.5;
+          cursor: pointer;
+          &:hover{
+            opacity: 1;
+          }
+
+          @media screen and (min-width: $device-tablet) {
+            font-size: 16px;
+            padding: 10px 15px;
+          }
+        }
+
+      }
+      @media screen and (min-width: $device-tablet) {
+
+
+      }
+      @media screen and (min-width: $device-computer) {
+
+      }
+    }
+
+    @media screen and (min-width: $device-tablet) {
+      width: 50%;
+      margin: 10px 0;
+      padding-left: 0;
+      padding-right: 10px;
+      &:nth-of-type(2n){
+        padding-left: 10px;
+        padding-right: 0px;
+      }
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+
+
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}
+.wrapper-card-person{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  box-sizing: border-box;
+  li{
+    a{
+      text-decoration: none;
+      color: $color-black;
+    }
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+
+    .wrapper-detail-all{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+
+      li{
+        a{
+          text-decoration: none;
+          color: $color-black;
+        }
+        box-sizing: border-box;
+        list-style-type: none;
+        width: 100%;
+        margin: 10px 0;
+
+        .title-detail-all{
+
+          font-size: 16px;
+          @media screen and (min-width: $device-tablet) {
+            font-size: 18px;
+          }
+          @media screen and (min-width: $device-computer) {
+
+          }
+        }
+
+        .list-detail-all{
+          padding: 10px 0 0 10px;
+          width: 100%;
+          box-sizing: border-box;
+          li{
+            //list-style-position: inside;
+            //list-style-type: square;
+            margin: 0;
+            padding: 0;
+            @media screen and (min-width: $device-tablet) {
+
+            }
+            @media screen and (min-width: $device-computer) {
+
+            }
+          }
+
+          .in-detail{
+            width: 100%;
+            overflow: hidden;
+            font-size: 14px;
+            font-weight: 100;
+            font-family: Thonburi;
+            position: relative;
+            display: inline-block;
+            padding: 0;
+          }
+          @media screen and (min-width: $device-tablet) {
+
+
+          }
+          @media screen and (min-width: $device-computer) {
+
+          }
+        }
+
+        @media screen and (min-width: $device-tablet) {
+          width: 50%;
+          margin: 10px 0;
+          padding-left: 0;
+          padding-right: 10px;
+          &:nth-of-type(2n){
+            padding-left: 10px;
+            padding-right: 0px;
+          }
+        }
+        @media screen and (min-width: $device-computer) {
+
+        }
+      }
+
+      @media screen and (min-width: $device-tablet) {
+
+
+      }
+      @media screen and (min-width: $device-computer) {
+
+      }
+    }
+
+    @media screen and (min-width: $device-tablet) {
+
+
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+    @media screen and (min-width: $device-lg-computer) {
+      width: 50%;
+      padding-right: 5px;
+      &:nth-child(2n){
+        padding-left: 5px;
+        padding-right: 0px;
+      }
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+
+
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}
+
+
+.wrapper-card-research{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  box-sizing: border-box;
+  li{
+    a{
+      text-decoration: none;
+      color: $color-black;
+    }
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+    @media screen and (min-width: $device-tablet) {
+      width: 33.3333333%;
+      &:nth-of-type(3n+1){
+        padding-left: 0;
+        padding-right: 5px;
+      }
+      &:nth-of-type(3n+2){
+        padding: 0 2.5px;
+      }
+      &:nth-of-type(3n+3){
+        padding-left: 5px;
+        padding-right: 0px;
+      }
+
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+
+
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}

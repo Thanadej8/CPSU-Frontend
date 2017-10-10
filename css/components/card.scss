@@ -1,0 +1,574 @@
+.card-news{
+  width: 100%;
+  padding: 0 10px;
+  margin-top: 30px;
+  position: relative;
+  box-sizing: border-box;
+  list-style-type: none;
+  .container-card-news{
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    cursor: pointer;
+
+
+    .image-card-news{
+      width: 100%;
+      top: -10px;
+      height: auto;
+      position: relative;
+      img{
+        width: 100%;
+      }
+
+      @media screen and (min-width: $device-tablet) {
+        top: -15px;
+
+      }
+      @media screen and (min-width: $device-computer) {
+        width: 40%;
+        top: -15px;
+        padding-right: 10px;
+      }
+    }
+
+    .content-card-news{
+      width: 100%;
+      box-sizing: border-box;
+
+      .time-create-news{
+        color: $color-gray;
+        font-family: Thonburi;
+        font-size: 12px;
+        position: relative;
+
+        @media screen and (min-width: $device-tablet) {
+
+        }
+        @media screen and (min-width: $device-computer) {
+          font-size: 14px;
+          margin-top: 10px;
+        }
+      }
+
+      .title{
+        margin: 0;
+        font-size: 16px;
+
+        &:before{
+          width: 20%;
+        }
+
+        @media screen and (min-width: $device-tablet) {
+          font-size: 20px;
+
+          font-weight: inherit;
+        }
+        @media screen and (min-width: $device-computer) {
+          font-size: 20px;
+          font-weight: inherit;
+        }
+      }
+
+      .description-card-news{
+        color: $color-gray;
+        font-family: Thonburi;
+
+        margin-top: 10px;
+        font-size: 14px;
+        @media screen and (min-width: $device-tablet) {
+
+        }
+        @media screen and (min-width: $device-computer) {
+          font-size: 16px;
+        }
+      }
+
+
+      @media screen and (min-width: $device-tablet) {
+
+      }
+      @media screen and (min-width: $device-computer) {
+        width: 60%;
+        padding-left: 10px;
+      }
+    }
+
+
+    @media screen and (min-width: $device-tablet) {
+      margin: 0;
+    }
+  }
+
+  .detail-card-news{
+    width: 100%;
+    border-top: 1px solid $color-gray;
+    margin-top: 20px;
+    height: 40px;
+    position: relative;
+    .create-by-card-news{
+      position: absolute;
+      font-size: 14px;
+      font-weight: 100;
+      top: 10px;
+      @media screen and (min-width: $device-tablet) {
+
+      }
+      @media screen and (min-width: $device-computer) {
+        font-size: 16px;
+        top: 13px;
+      }
+    }
+
+    .logos-share-card-news{
+      list-style-type: none;
+      position: absolute;
+      right: 0;
+      top: 10px;
+
+      li{
+        padding: 0;
+      }
+
+      .logo-share-card-news{
+        margin-left: 3px;
+        display: inline-block;
+        width: 20px;
+        height: auto;
+        cursor: pointer;
+        top: -2px;
+        position: relative;
+        opacity: 1;
+        &:hover{
+          opacity: 1;
+
+          .description-logo-share-card-news{
+
+            @media screen and (min-width: $device-tablet) {
+
+            }
+            @media screen and (min-width: $device-computer) {
+              display: block;
+            }
+          }
+        }
+
+        .description-logo-share-card-news{
+          display: none;
+          padding: 5px;
+          position: absolute;
+          z-index: 1;
+          text-align: center;
+          color: white;
+          font-weight: 100;
+          background-color: $color-black;
+          opacity: 0.8;
+
+          @media screen and (min-width: $device-tablet) {
+
+          }
+          @media screen and (min-width: $device-computer) {
+            bottom: -50px;
+            left: -180%;
+            width: 130px;
+          }
+        }
+
+        img{
+          width: 100%;
+        }
+        @media screen and (min-width: $device-tablet) {
+
+        }
+        @media screen and (min-width: $device-computer) {
+          width: 30px;
+          margin-left: 5px;
+          opacity: 0.5;
+
+        }
+      }
+      @media screen and (min-width: $device-tablet) {
+
+      }
+      @media screen and (min-width: $device-computer) {
+
+
+      }
+    }
+
+    @media screen and (min-width: $device-tablet) {
+
+    }
+    @media screen and (min-width: $device-computer) {
+      margin-top: 0;
+      height: 50px;
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+    padding: 0 20px;
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}
+
+.card-course{
+  width: 100%;
+  background-color: $color-white;
+  border-bottom: 3px solid $color-green;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  .type-card-course{
+    font-family: Thonburi;
+    font-weight: bold;
+    font-size: 14px;
+    @media screen and (min-width: $device-tablet) {
+      font-size: 16px;
+
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  .name-card-course{
+    font-weight: 100;
+    margin-top: 5px;
+    font-size: 14px;
+
+    @media screen and (min-width: $device-tablet) {
+      font-size: 18px;
+    }
+    @media screen and (min-width: $device-computer) {
+      margin-top: 10px;
+    }
+  }
+
+
+
+  @media screen and (min-width: $device-tablet) {
+    padding: 20px;
+    margin: 10px 0;
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}
+
+
+.card-document{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: $color-white;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
+  .title{
+    margin: 0;
+    position: relative;
+    .management-logo{
+      position: absolute;
+      right: 5px;
+      top: 0;
+      .description-management-logo{
+        font-size: 16px;
+
+      }
+      @media screen and (min-width: $device-tablet) {
+        right: 0px;
+        top: 0px;
+      }
+    }
+
+    @media screen and (min-width: $device-tablet) {
+
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+
+
+  .description-card-document{
+    font-family: Thonburi;
+    font-size: 14px;
+    color: $color-gray;
+    margin-top: 10px;
+    @media screen and (min-width: $device-tablet) {
+      font-size: 16px;
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+    padding: 20px;
+  }
+}
+
+.card-person{
+  width: 100%;
+  margin: 20px 0;
+  box-sizing: border-box;
+
+  .header-card-person{
+    background-color: $color-green;
+    color: $color-white;
+    padding: 0 10px 10px 10px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+
+
+
+    .image-card-news{
+      list-style-type: none;
+      width: 100%;
+      position: relative;
+      top: -10px;
+      img{
+        width: 100%;
+        box-shadow: 2px 2px 4px 0px $color-black;
+        @media screen and (min-width: $device-tablet) {
+
+        }
+        @media screen and (min-width: $device-computer) {
+
+
+        }
+
+      }
+      @media screen and (min-width: $device-tablet) {
+
+      }
+      @media screen and (min-width: $device-computer) {
+        width: 20%;
+        position: absolute;
+        bottom: 10px;
+        top: inherit;
+      }
+    }
+
+    .detail-header-card-person{
+      list-style-type: none;
+      width: 100%;
+
+
+
+
+      .title{
+        margin: 0px;
+        font-size: 16px;
+        display: flex;
+        width: 100%;
+        position: relative;
+
+        &:before{
+          border-bottom: 3px solid $color-white;
+          width: 10%;
+        }
+
+        .position-card-person{
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        @media screen and (min-width: $device-tablet) {
+          font-size: 18px;
+        }
+        @media screen and (min-width: $device-computer) {
+
+        }
+      }
+
+      .name-eng-card-person{
+        font-weight: 100;
+
+        display: flex;
+        @media screen and (min-width: $device-tablet) {
+
+          font-size: 16px;
+        }
+        @media screen and (min-width: $device-computer) {
+
+        }
+      }
+      @media screen and (min-width: $device-tablet) {
+
+      }
+      @media screen and (min-width: $device-computer) {
+        padding-left: calc(20% + 20px);
+      }
+
+    }
+
+
+
+
+
+    @media screen and (min-width: $device-tablet) {
+
+    }
+    @media screen and (min-width: $device-computer) {
+      padding: 20px;
+    }
+
+  }
+
+  .detail-card-person{
+    width: 100%;
+    background-color: $color-white;
+    box-sizing: border-box;
+    padding: 10px;
+
+
+    .wrapper-detail-all{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+
+      li{
+        box-sizing: border-box;
+        list-style-type: none;
+        width: 100%;
+        margin: 10px 0;
+
+
+        .list-detail-all{
+          font-size: 16px;
+          @media screen and (min-width: $device-tablet) {
+            font-size: 18px;
+          }
+          @media screen and (min-width: $device-computer) {
+
+          }
+          .in-detail{
+
+          }
+          @media screen and (min-width: $device-tablet) {
+
+
+          }
+          @media screen and (min-width: $device-computer) {
+
+          }
+        }
+
+        @media screen and (min-width: $device-tablet) {
+          width: 50%;
+          margin: 10px 0;
+          padding-left: 0;
+          padding-right: 10px;
+          &:nth-child(1){
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+          }
+          &:nth-child(2){
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+          }
+
+        }
+        @media screen and (min-width: $device-computer) {
+
+        }
+      }
+
+      @media screen and (min-width: $device-tablet) {
+
+
+      }
+      @media screen and (min-width: $device-computer) {
+
+      }
+    }
+
+
+    @media screen and (min-width: $device-tablet) {
+      padding: 20px;
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+    margin: 180px 0 20px 0;
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+  @media screen and (min-width: $device-lg-computer) {
+    margin: 80px 0 20px 0;
+  }
+}
+
+.card-research{
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: $color-white;
+  .image-card-research{
+    width: 100%;
+    height: auto;
+
+
+  }
+  .detail-card-research{
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 0;
+    .title {
+      margin: 0;
+      font-size: 18px;
+      &:before{
+        width: 10%;
+      }
+      @media screen and (min-width: $device-tablet) {
+        font-size: 20px;
+      }
+    }
+
+    .create-by-card-research{
+      font-size: 14px;
+      font-weight: 100;
+      margin-top: 10px;
+      @media screen and (min-width: $device-tablet) {
+        font-size: 16px;
+        margin-top: 20px;
+      }
+
+    }
+
+
+    @media screen and (min-width: $device-tablet) {
+      padding: 10px 15px;
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+
+}

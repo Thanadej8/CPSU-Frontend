@@ -1,0 +1,356 @@
+.form-read-news{
+  width: 100%;
+  .header-form-read-news{
+    width: 100%;
+    background-color: $color-green;
+    padding: 10px 10px 60px 10px;
+    box-sizing: border-box;
+    .category-header-form-read-news{
+      color: $color-white;
+      font-family: Thonburi;
+      font-weight: lighter;
+      font-size: 12px;
+      @media screen and (min-width: $device-tablet) {
+        font-size: 16px;
+      }
+      @media screen and (min-width: $device-computer) {
+
+      }
+    }
+
+    .title{
+      color: $color-white;
+      margin: 0;
+      margin-bottom: 10px;
+      &:before{
+        border-bottom: 3px solid $color-white;
+
+      }
+      @media screen and (min-width: $device-tablet) {
+        margin-bottom: 20px;
+      }
+
+    }
+
+    .create-by-form-read-news{
+      color: $color-white;
+      font-family: Thonburi;
+      font-size: 12px;
+      font-weight: lighter;
+      .time-create-form-read-news{
+        float: right;
+      }
+      @media screen and (min-width: $device-tablet) {
+        font-size: 16px;
+      }
+      @media screen and (min-width: $device-computer) {
+
+      }
+
+    }
+
+
+
+    @media screen and (min-width: $device-tablet) {
+      padding: 20px 0 100px 0;
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  .content-form-read-news{
+    width: 100%;
+    background-color: $color-white;
+    padding: 10px;
+    box-sizing: border-box;
+
+
+    .container{
+
+      .zone-read-content-form-read-news{
+        width: 100%;
+        position: relative;
+        top:-60px;
+
+        img{
+          width: 100%;
+          height: auto;
+          margin-bottom: 10px;
+          @media screen and (min-width: $device-tablet) {
+            margin-bottom: 20px;
+          }
+        }
+
+        .zone-content-form-read-news{
+          width: 100%;
+          font-size: 14px;
+          font-family: Thonburi;
+          @media screen and (min-width: $device-tablet) {
+            font-size: 16px;
+          }
+        }
+
+        @media screen and (min-width: $device-tablet) {
+          top: -100px;
+        }
+      }
+
+
+
+
+
+
+
+
+    }
+
+    @media screen and (min-width: $device-tablet) {
+
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+
+  }
+
+
+}
+
+.form-contact{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0;
+  .title-form-contact{
+    box-sizing: border-box;
+    background-color: $color-green;
+    padding: 10px;
+    color: $color-white;
+    font-weight: 100;
+    font-size: 18px;
+    @media screen and (min-width: $device-tablet) {
+      padding: 20px;
+      font-size: 24px;
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+  .detail-form-contact{
+    box-sizing: border-box;
+    background-color: $color-white;
+    padding: 10px;
+
+    .title{
+      font-size: 18px;
+      margin-bottom: 10px;
+      &:before{
+        width: 10%;
+        @media screen and (min-width: $device-tablet) {
+          width: 2%;
+        }
+      }
+      &:nth-child(1){
+        margin-top: 0;
+      }
+
+      @media screen and (min-width: $device-tablet) {
+        font-size: 22px;
+      }
+      @media screen and (min-width: $device-computer) {
+
+      }
+    }
+
+    .wrapper-detail-all{
+      padding-left: 10px;
+
+      .title-detail-all{
+
+      }
+
+      @media screen and (min-width: $device-tablet) {
+        padding-left: 20px;
+      }
+    }
+
+    @media screen and (min-width: $device-tablet) {
+      padding: 20px;
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  .image-history{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    @media screen and (min-width: $device-tablet) {
+      margin-bottom: 20px;
+    }
+  }
+  .title-history{
+    font-family: Thonburi;
+    font-size: 14px;
+
+
+    @media screen and (min-width: $device-tablet) {
+      font-size: 16px;
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+    margin: 20px 0;
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}
+
+.form-read-research{
+  width: 100%;
+  background-color: $color-white;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  .logo-su{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: auto;
+    @media screen and (min-width: $device-tablet) {
+      width: 100px;
+
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+  .title-research{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 20px;
+    @media screen and (min-width: $device-tablet) {
+      font-size: 20px;
+
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+  .description-research{
+    font-size: 14px;
+    font-family: Thonburi;
+    text-align: center;
+    margin-top: 10px;
+    @media screen and (min-width: $device-tablet) {
+      font-size: 16px;
+      margin-top: 20px;
+
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  .wrapper-content-research{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+
+    li{
+      list-style-type: none;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+
+
+
+      .image-content-research{
+        width: 100%;
+        box-sizing: border-box;
+        display: inline;
+        float: none;
+
+        img{
+          width: 100%;
+
+        }
+        @media screen and (min-width: $device-tablet) {
+          width: 50%;
+          float: left;
+          padding-right: 10px;
+
+        }
+        @media screen and (min-width: $device-computer) {
+
+        }
+
+      }
+      .content-research{
+        margin-top: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        float: none;
+        display: inline;
+        height: 100%;
+
+        font-family: Thonburi;
+        @media screen and (min-width: $device-tablet) {
+          width: 50%;
+          float: right;
+          padding-left: 10px;
+          margin-top: 0px;
+
+        }
+        @media screen and (min-width: $device-computer) {
+
+        }
+      }
+      @media screen and (min-width: $device-tablet) {
+        margin-bottom: 30px;
+        &:nth-of-type(2n){
+          .image-content-research{
+            float: right;
+          }
+          .content-research{
+            float: left;
+          }
+        }
+
+
+      }
+      @media screen and (min-width: $device-computer) {
+
+      }
+    }
+    @media screen and (min-width: $device-tablet) {
+
+
+
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+
+  @media screen and (min-width: $device-tablet) {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+
+}

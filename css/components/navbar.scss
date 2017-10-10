@@ -1,0 +1,245 @@
+.navbar{
+  width: 100%;
+  background-color: $color-white;
+  height: 50px;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  //box-shadow: 2px 2px 4px $color-light-gray;
+  box-sizing: border-box;
+  .container{
+    height: 100%;
+    position: relative;
+
+    .logo-navbar{
+      position: absolute;
+      margin: 0;
+      color: $color-green;
+      font-weight: 100;
+      font-size: 16px;
+      cursor: pointer;
+      top: 12px;
+      @media screen and (min-width: $device-tablet) {
+        top: 20px;
+        font-size: 24px;
+      }
+      @media screen and (min-width: $device-computer) {
+
+      }
+    }
+
+    .list-menu-navbar{
+      position: absolute;
+      right: 10px;
+      list-style-type: none;
+      display: none;
+      li.menu-navbar{
+        &:after{
+          display:block;
+          content: '';
+          border-bottom: 3px solid $color-green;
+          transform: scaleX(0);
+          transition: transform 250ms ease-in-out;
+        }
+        &:hover:after{
+          transform: scaleX(1);
+        }
+      }
+      .menu-navbar{
+        opacity: 0.5;
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        margin-left: 5px;
+
+        a{
+          color: $color-black;
+          opacity: 1;
+        }
+
+        .drop-down-menu{
+          top: 30px;
+          right: 0;
+          width: 220px;
+          .list-menu-drop-down{
+
+          }
+
+          @media screen and (min-width: $device-tablet) {
+
+          }
+          @media screen and (min-width: $device-computer) {
+
+          }
+        }
+
+
+        &:after{
+          transform-origin:  0% 50%;
+        }
+        &:hover{
+          opacity: 1;
+          .drop-down-menu{
+            display: block;
+          }
+
+        }
+        @media screen and (min-width: $device-tablet) {
+          margin-left: 5px;
+        }
+        @media screen and (min-width: $device-computer) {
+          margin-left: 10px;
+        }
+      }
+      .active-menu-navbar{
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        margin-left: 5px;
+        border-bottom: 3px solid $color-green;
+
+        @media screen and (min-width: $device-tablet) {
+          margin-left: 5px;
+        }
+        @media screen and (min-width: $device-computer) {
+          margin-left: 10px;
+        }
+      }
+
+
+      @media screen and (min-width: $device-tablet) {
+        top: 10px;
+        display: block;
+        right: 20px;
+      }
+      @media screen and (min-width: $device-computer) {
+
+      }
+    }
+
+    .btn-navbar-list-menu{
+      position: absolute;
+      right: 10px;
+      top: 12px;
+      width: 50px;
+      height: 30px;
+      background-color: $color-green;
+      border: none;
+      font-size: 14px;
+      color: $color-white;
+      font-weight: 100;
+
+      &:focus{
+        outline: none;
+      }
+
+      @media screen and (min-width: $device-tablet) {
+        display: none;
+      }
+    }
+
+    .list-menu-navbar-mobile{
+      width: 100%;
+      position: absolute;
+      top: 35px;
+      display: none;
+      left: 0;
+      box-sizing: border-box;
+      padding: 10px;
+      background-color: $color-white;
+
+      .menu-navbar-mobile{
+        list-style-type: none;
+        border-bottom: 1px solid $color-light-gray;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 100;
+
+        &:nth-last-child(1){
+          border-bottom: none;
+        }
+      }
+    }
+
+  }
+
+  @media screen and (min-width: $device-tablet) {
+    height: 80px;
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+  @media screen and (min-width: $device-lg-computer) {
+
+  }
+}
+
+.navbar-bottom{
+  display: table;
+  width: 100%;
+  background-color: $color-green;
+
+  .logos-navbar-bottom{
+    width: 20px;
+    display: block;
+    margin: 20px auto;
+    padding: 0;
+    margin-bottom: 0;
+
+    list-style-type: none;
+
+    .logo-navbar-bottom{
+      width: 20px;
+      height: auto;
+      cursor: pointer;
+
+      &:hover{
+
+        @media screen and (min-width: $device-tablet) {
+          opacity: 1;
+        }
+      }
+      img{
+        width: 100%;
+      }
+
+      @media screen and (min-width: $device-tablet) {
+
+      }
+      @media screen and (min-width: $device-computer) {
+        opacity: 0.5;
+        width: 30px;
+      }
+    }
+    @media screen and (min-width: $device-tablet) {
+      width: 50px;
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+  .copyright{
+    text-align: center;
+    color: $color-white;
+    margin: 10px 0;
+    font-weight: 100;
+    font-size: 12px;
+    @media screen and (min-width: $device-tablet) {
+      font-size: 14px;
+    }
+    @media screen and (min-width: $device-computer) {
+
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+    padding: 10px 0;
+  }
+  @media screen and (min-width: $device-computer) {
+  }
+  @media screen and (min-width: $device-lg-computer) {
+
+  }
+}

@@ -1,0 +1,35 @@
+.drop-down-menu{
+  position: absolute;
+  width: 200px;
+  display: none;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 1;
+  background-color: $color-white;
+  box-shadow: 2px 2px 4px $color-light-gray;
+  .list-menu-drop-down{
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+    font-weight: 100;
+    opacity: 0.5;
+
+    padding: 10px;
+    border-bottom: 1px solid $color-light-gray;
+    &:nth-last-child(1){
+      border-bottom: none;
+    }
+
+    &:hover{
+      opacity: 1;
+
+    }
+  }
+
+  @media screen and (min-width: $device-tablet) {
+    padding: 10px;
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}

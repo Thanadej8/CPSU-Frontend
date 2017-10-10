@@ -1,0 +1,25 @@
+.container{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+
+
+
+  @media screen and (min-width: $device-tablet) {
+    width: $device-tablet - 20px;
+    display: block;
+    padding: 0 20px;
+    margin: auto;
+
+  }
+  @media screen and (min-width: $device-computer) {
+    width: $device-computer - 20px;
+  }
+  @media screen and (min-width: $device-lg-computer) {
+    width: $device-lg-computer - 20px;
+  }
+
+}

@@ -1,0 +1,51 @@
+
+
+.title{
+  margin: 10px 0;
+  font-size: $font-title-mobile;
+  font-weight: 100;
+  position: relative;
+  padding-bottom: 10px;
+  &:before{
+    content: "";
+    position: absolute;
+    width: 10%;
+    bottom: 0;
+    border-bottom: 3px solid $color-green;
+  }
+
+  .more-detail-title{
+    position: absolute;
+    right: 0;
+    font-family: Thonburi;
+    font-size: $font-tablet;
+    top: 6px;
+  }
+
+
+  @media screen and (min-width: $device-tablet) {
+    margin: 20px 0;
+    font-size: $font-title-tablet;
+    padding-bottom: 8px;
+    &:before{
+      width: 5%;
+    }
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}
+
+.not-found{
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px 0;
+  @media screen and (min-width: $device-tablet) {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  @media screen and (min-width: $device-computer) {
+
+  }
+}
