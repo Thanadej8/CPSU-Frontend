@@ -49,6 +49,87 @@
 
     }
 
+    .container{
+      position: relative;
+      .logos-share-card-news{
+        list-style-type: none;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        margin: 0;
+
+        li{
+          padding: 0;
+          list-style-type: none;
+        }
+
+        .logo-share-card-news{
+          margin-left: 3px;
+          display: inline-block;
+          width: 20px;
+          height: auto;
+          cursor: pointer;
+          top: -2px;
+          position: relative;
+          opacity: 1;
+          &:hover{
+            opacity: 1;
+
+            .description-logo-share-card-news{
+
+              @media screen and (min-width: $device-tablet) {
+
+              }
+              @media screen and (min-width: $device-computer) {
+                display: block;
+              }
+            }
+          }
+
+          .description-logo-share-card-news{
+            display: none;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            text-align: center;
+            color: white;
+            font-weight: 100;
+            background-color: $color-black;
+            opacity: 0.8;
+
+            @media screen and (min-width: $device-tablet) {
+
+            }
+            @media screen and (min-width: $device-computer) {
+              bottom: -50px;
+              left: -180%;
+              width: 130px;
+            }
+          }
+
+          img{
+            width: 100%;
+          }
+          @media screen and (min-width: $device-tablet) {
+
+          }
+          @media screen and (min-width: $device-computer) {
+            width: 30px;
+            margin-left: 5px;
+            opacity: 0.5;
+
+          }
+        }
+        @media screen and (min-width: $device-tablet) {
+          right: 20px;
+        }
+        @media screen and (min-width: $device-computer) {
+
+
+        }
+      }
+    }
+
 
 
     @media screen and (min-width: $device-tablet) {
