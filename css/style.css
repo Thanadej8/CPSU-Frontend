@@ -127,8 +127,16 @@
         list-style-type: none;
         border-bottom: 1px solid #F0F0F0;
         padding: 10px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 100; }
+        .navbar .container .list-menu-navbar-mobile .menu-navbar-mobile .subs-menu-navbar-mobile {
+          padding: 0;
+          display: none; }
+          .navbar .container .list-menu-navbar-mobile .menu-navbar-mobile .subs-menu-navbar-mobile .sub-menu-navbar-mobile {
+            list-style-type: none;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: 100; }
         .navbar .container .list-menu-navbar-mobile .menu-navbar-mobile:nth-last-child(1) {
           border-bottom: none; }
   @media screen and (min-width: 768px) {
@@ -969,13 +977,13 @@
           color: #000000; }
       .wrapper-detail-all li .list-detail-all .in-detail {
         width: 100%;
-        overflow: hidden;
         font-size: 14px;
         font-weight: 100;
         font-family: Thonburi;
         position: relative;
         display: inline-block;
-        padding: 0; }
+        padding: 0;
+        box-sizing: border-box; }
         .wrapper-detail-all li .list-detail-all .in-detail .link-in-detail {
           color: #117167;
           opacity: 0.5;
@@ -983,14 +991,16 @@
           .wrapper-detail-all li .list-detail-all .in-detail .link-in-detail:hover {
             opacity: 1; }
         .wrapper-detail-all li .list-detail-all .in-detail .btn-download-detail {
-          padding: 7px 13px;
+          box-sizing: border-box;
           border: none;
+          top: 0;
           font-weight: 100;
-          font-size: 16px;
-          opacity: 0.5;
-          cursor: pointer; }
-          .wrapper-detail-all li .list-detail-all .in-detail .btn-download-detail:hover {
-            opacity: 1; }
+          font-size: 14px;
+          opacity: 1;
+          cursor: pointer;
+          padding: 7px 13px;
+          background-color: #117167;
+          color: #ffffff; }
           @media screen and (min-width: 768px) {
             .wrapper-detail-all li .list-detail-all .in-detail .btn-download-detail {
               font-size: 16px;

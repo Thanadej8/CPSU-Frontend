@@ -154,8 +154,20 @@
         list-style-type: none;
         border-bottom: 1px solid $color-light-gray;
         padding: 10px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 100;
+
+        .subs-menu-navbar-mobile{
+          padding: 0;
+          display: none;
+          .sub-menu-navbar-mobile{
+            list-style-type: none;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: 100;
+
+          }
+        }
 
         &:nth-last-child(1){
           border-bottom: none;
