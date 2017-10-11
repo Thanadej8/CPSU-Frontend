@@ -331,7 +331,6 @@
   box-sizing: border-box;
   cursor: pointer; }
   .card-course .type-card-course {
-    font-family: Thonburi;
     font-weight: bold;
     font-size: 14px; }
     @media screen and (min-width: 768px) {
@@ -846,7 +845,7 @@
   .title .more-detail-title {
     position: absolute;
     right: 0;
-    font-family: Thonburi;
+    font-weight: 100;
     font-size: 16px;
     top: 6px; }
   @media screen and (min-width: 768px) {
