@@ -157,14 +157,22 @@
         font-size: 14px;
         font-weight: 100;
 
+        a{
+          background-color: $color-black;
+          text-decoration: none;
+        }
+
         .subs-menu-navbar-mobile{
           padding: 0;
-          display: none;
           .sub-menu-navbar-mobile{
             list-style-type: none;
-            padding: 10px;
+            padding: 10px 10px 0 10px;
             font-size: 14px;
             font-weight: 100;
+            a{
+              background-color: $color-black;
+              text-decoration: none;
+            }
 
           }
         }

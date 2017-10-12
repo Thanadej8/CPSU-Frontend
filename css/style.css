@@ -129,14 +129,19 @@
         padding: 10px;
         font-size: 14px;
         font-weight: 100; }
+        .navbar .container .list-menu-navbar-mobile .menu-navbar-mobile a {
+          background-color: #000000;
+          text-decoration: none; }
         .navbar .container .list-menu-navbar-mobile .menu-navbar-mobile .subs-menu-navbar-mobile {
-          padding: 0;
-          display: none; }
+          padding: 0; }
           .navbar .container .list-menu-navbar-mobile .menu-navbar-mobile .subs-menu-navbar-mobile .sub-menu-navbar-mobile {
             list-style-type: none;
-            padding: 10px;
+            padding: 10px 10px 0 10px;
             font-size: 14px;
             font-weight: 100; }
+            .navbar .container .list-menu-navbar-mobile .menu-navbar-mobile .subs-menu-navbar-mobile .sub-menu-navbar-mobile a {
+              background-color: #000000;
+              text-decoration: none; }
         .navbar .container .list-menu-navbar-mobile .menu-navbar-mobile:nth-last-child(1) {
           border-bottom: none; }
   @media screen and (min-width: 768px) {
