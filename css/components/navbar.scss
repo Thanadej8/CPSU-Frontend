@@ -21,6 +21,20 @@
       font-size: 16px;
       cursor: pointer;
       top: 12px;
+
+      &:after{
+        position: absolute;
+        top: 0;
+        margin-left: 10px;
+        width: 22px;
+        height: 42px;
+        background-size: 20px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        content: "";
+        background-image: url('../icon-ribbon.png');
+      }
+
       @media screen and (min-width: $device-tablet) {
         top: 20px;
         font-size: 24px;
@@ -60,9 +74,9 @@
         }
 
         .drop-down-menu{
-          top: 30px;
-          right: 0;
-          width: 220px;
+          top: 27px;
+          right: 0px;
+          width: 200px;
           .list-menu-drop-down{
 
           }

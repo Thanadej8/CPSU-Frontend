@@ -24,6 +24,7 @@
       height: auto;
       position: relative;
       img{
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         width: 100%;
       }
 
@@ -343,7 +344,7 @@
       top: -10px;
       img{
         width: 100%;
-        box-shadow: 2px 2px 4px 0px $color-black;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         @media screen and (min-width: $device-tablet) {
 
         }
@@ -517,7 +518,7 @@
     margin: 90px 0 20px 0;
   }
   @media screen and (min-width: $device-computer) {
-    margin: 30px 0 20px 0;
+    margin: 170px 0 20px 0;
   }
   @media screen and (min-width: $device-lg-computer) {
 
