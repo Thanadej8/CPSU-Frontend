@@ -333,14 +333,7 @@
         }
 
         @media screen and (min-width: $device-tablet) {
-          width: 50%;
-          margin: 10px 0;
-          padding-left: 0;
-          padding-right: 10px;
-          &:nth-of-type(2n){
-            padding-left: 10px;
-            padding-right: 0px;
-          }
+
         }
         @media screen and (min-width: $device-computer) {
 
@@ -358,18 +351,17 @@
 
     @media screen and (min-width: $device-tablet) {
 
-
     }
     @media screen and (min-width: $device-computer) {
-
-    }
-    @media screen and (min-width: $device-lg-computer) {
       width: 50%;
       padding-right: 5px;
       &:nth-child(2n){
         padding-left: 5px;
         padding-right: 0px;
       }
+    }
+    @media screen and (min-width: $device-lg-computer) {
+
     }
   }
 

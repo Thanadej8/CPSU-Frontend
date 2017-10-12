@@ -37,14 +37,3 @@ function clickBtnMenu() {
     }
     isBtnMenu = !isBtnMenu;
 }
-var isSubmenu = false;
-document.getElementById('buttonSubMenu').onclick = function() {
-   var subMenu = document.getElementById('subMenuMobile');
-    if(isSubmenu){
-        subMenu.style.display = 'none'
-
-    }else{
-        subMenu.style.display = 'block'
-    }
-    isSubmenu = !isSubmenu;
-};
