@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6494163-90c6-45e5-b65c-d25ddc07ca04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icon-ribbon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/42460d0c3c5f95b4fa4d47dc35636f91caee041a/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/42460d0c3c5f95b4fa4d47dc35636f91caee041a/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/card.scssc" afterPath="$PROJECT_DIR$/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/card.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/dropDownMenu.scssc" afterPath="$PROJECT_DIR$/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/dropDownMenu.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/form.scssc" afterPath="$PROJECT_DIR$/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/form.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/navbar.scssc" afterPath="$PROJECT_DIR$/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/navbar.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/wrapper.scssc" afterPath="$PROJECT_DIR$/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/wrapper.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/42460d0c3c5f95b4fa4d47dc35636f91caee041a/style.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/42460d0c3c5f95b4fa4d47dc35636f91caee041a/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/card.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/card.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/dropDownMenu.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/dropDownMenu.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/form.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/form.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/navbar.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/navbar.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/title.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/title.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/wrapper.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/886321e070a53942cfd0dcb63f2d8cf56f54b7c9/wrapper.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/download.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/card.scss" afterPath="$PROJECT_DIR$/css/components/card.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/dropDownMenu.scss" afterPath="$PROJECT_DIR$/css/components/dropDownMenu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/form.scss" afterPath="$PROJECT_DIR$/css/components/form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/navbar.scss" afterPath="$PROJECT_DIR$/css/components/navbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/wrapper.scss" afterPath="$PROJECT_DIR$/css/components/wrapper.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/document.html" afterPath="$PROJECT_DIR$/document.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -99,11 +78,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navbar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/components/navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="259">
               <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="document.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/document.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -195,7 +184,6 @@
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/css/components/logo.scss" />
-        <option value="$PROJECT_DIR$/document.html" />
         <option value="$PROJECT_DIR$/js.js" />
         <option value="$PROJECT_DIR$/history.html" />
         <option value="$PROJECT_DIR$/css/components/container.scss" />
@@ -212,6 +200,7 @@
         <option value="$PROJECT_DIR$/css/components/dropDownMenu.scss" />
         <option value="$PROJECT_DIR$/css/components/form.scss" />
         <option value="$PROJECT_DIR$/css/components/navbar.scss" />
+        <option value="$PROJECT_DIR$/document.html" />
       </list>
     </option>
   </component>
@@ -384,12 +373,12 @@
       <workItem from="1507654645857" duration="9211000" />
       <workItem from="1507720868476" duration="1521000" />
       <workItem from="1507791812721" duration="1913000" />
-      <workItem from="1507805860453" duration="3003000" />
+      <workItem from="1507805860453" duration="3315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111587000" />
+    <option name="totallyTimeSpent" value="111899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="0" />
@@ -625,13 +614,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js.js" />
-    <entry file="file://$PROJECT_DIR$/document.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="955">
-          <caret line="89" column="6" lean-forward="false" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/history.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -781,8 +763,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/components/navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="259">
           <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/document.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
           <folding />
         </state>
       </provider>
